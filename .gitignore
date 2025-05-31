@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code config (optional)
+.vscode/
+
+# macOS & system files
+.DS_Store
+
+# Model artifacts (optional - kalau besar/auto-generated)
+*.h5
+*.npy
+
+# Flask specific
+instance/
+*.db
+
+# Log files
+*.log
